@@ -1,0 +1,47 @@
+---
+
+outputFilename: "./output/investments-example.csv"
+
+portfolios:
+  - name: Retirement
+    symbols:
+      - symbol: SCHA
+        type: small
+      - symbol: SCHB
+        type: broad
+      - symbol: SCHD
+        type: large
+      - symbol: SCHF
+        type: international
+      - symbol: SCHG
+        type: large
+      - symbol: SCHX
+        type: large
+    allocations:
+      fixed: 5.0
+      small: 10.0
+      medium: 10.0
+      large: 10.0
+      international: 10.0
+      broad: 10.0
+      cash: 2.0
+      stock: 0.0
+      crypto: 0.0
+  - name: Hodl
+    symbols:
+      - symbol: GME
+        type: stock
+    allocations:
+      cash: 2.0
+      stock: 98.0
+
+balances:
+  - name: Stonks
+    balance: 1000000
+    portfolio: Hodl
+  - name: 401k
+    balance: 500000.00
+    portfolio: Retirement
+  - name: HSA
+    balance: 50000.00
+    portfolio: Retirement
