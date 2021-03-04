@@ -1,12 +1,12 @@
-# Go Stocks
+# Go Invest
 
-Allows you to split stocks according to portfolio allocations that you can customize. Writes the portfolios to a CSV file so you can use it with other things.
+Allows you to split stocks/securities/investments according to portfolio allocations that you can customize. Writes the portfolios to a CSV file so you can use it with other things.
 
 Leverages the Yahoo Finance API to get you a close-to-actual balance. Now you can invest a bit more wisely!
 
 ## Table of Contents
 
-- [Go Stocks](#go-stocks)
+- [Go Invest](#go-invest)
   - [Table of Contents](#table-of-contents)
   - [Disclaimers](#disclaimers)
   - [Usage example](#usage-example)
